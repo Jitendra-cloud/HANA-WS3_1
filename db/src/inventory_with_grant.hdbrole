@@ -1,0 +1,22 @@
+{
+  "role": {
+    "name": "inventory_with_grant#",
+    "object_privileges": [
+      {
+        "name": "inventory",
+        "type": "TABLE",
+        "privileges_with_grant_option": [
+          "ALTER",
+          "DELETE",
+          "DROP",
+          "INDEX",
+          "INSERT",
+          "REFERENCES",
+          "SELECT",
+          "TRIGGER",
+          "UNMASKED"
+        ]
+      }
+    ]
+  }
+}   

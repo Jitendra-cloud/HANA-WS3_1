@@ -1,0 +1,23 @@
+{
+  "role": {
+    "name": "inventory_without_grant",
+    "object_privileges": [
+      {
+        "name": "inventory",
+        "type": "TABLE",
+        "privileges": [
+          "ALTER",
+          "DROP",
+          "DELETE",
+          "INDEX",
+          "INSERT",
+          "REFERENCES",
+          "SELECT",
+          "TRIGGER",
+          "UNMASKED",
+          "UPDATE"
+        ]
+      }
+    ]
+  }
+}
